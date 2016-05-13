@@ -11,20 +11,20 @@ var destPath = './dist';
 
 gulp.task('uncleaned-css', function () {
     return gulp.src(cssPath)
-    	.pipe(concatCss('./main.css'))
+    	.pipe(concatCss('./uncleaned-css.css'))
         .pipe(gulp.dest(destPath));
 });
 
 gulp.task('cleaned-with-uncss', function () {
     return gulp.src(cssPath)
-    	.pipe(concatCss('./my-uncss.css'))
+    	.pipe(concatCss('./uncss-cleaned-css.css'))
     	.pipe(uncss({ html: [htmlPath]}))
         .pipe(gulp.dest(destPath));
 });
 
 gulp.task('cleaned-with-purifycss', function () {
     return gulp.src(cssPath)
-    	.pipe(concatCss('./my-purifycss.css'))
+    	.pipe(concatCss('./purifycss-cleaned-css.css'))
     	.pipe(purify([jsPath, htmlPath]))
         .pipe(gulp.dest(destPath));
 });
