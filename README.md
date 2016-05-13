@@ -1,7 +1,7 @@
 # clean-css
 Analysis of node build tools to remove unused CSS, tools used are
-uncss
-purify-css
+(uncss) [https://github.com/giakki/uncss]
+(purifycss) [https://github.com/purifycss/purifycss]
 
 ## Installation
 
