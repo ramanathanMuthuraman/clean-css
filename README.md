@@ -37,7 +37,11 @@ So why two tools? To put in simple words
 * uncss : Discards classes that are not used in **HTML** from the stylesheet
 * purifycss : Discards classes that are not used in **HTML** and **JS** from the stylesheet
 
-Showdown : Purifycss does a better job by being more compreheensive. 
+Uncleaned CSS Size (KB) | PurifyCSS Cleaned CSS Size (KB) | Uncss Cleaned CSS Size (KB) 
+------------ | ------------- | --------------
+357 | 192 | 22
+
+**Purifycss might not provide a compact CSS file as uncss but does a better job by being more comprehensive**
 
 ## License
 
