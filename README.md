@@ -22,11 +22,11 @@ gulp
 ```
 
 ## Demo
-Click [here] http://rawgit.com/ramanathanMuthuraman/clean-css/master/index.html?css="uncleaned-css"), to view the page with uncleaned CSS
+Click [here] (http://rawgit.com/ramanathanMuthuraman/clean-css/master/index.html?css=uncleaned-css), to view the page with uncleaned CSS
 
-Click [here] (http://rawgit.com/ramanathanMuthuraman/clean-css/master/index.html?css="uncss-cleaned-css"), to view page linked with cleaned CSS from uncss module
+Click [here] (http://rawgit.com/ramanathanMuthuraman/clean-css/master/index.html?css=uncss-cleaned-css), to view page linked with cleaned CSS from uncss module
 
-Click [here] (http://rawgit.com/ramanathanMuthuraman/clean-css/master/index.html?css="purifycss-cleaned-css"), to view page linked with cleaned CSS from purify-css module
+Click [here] (http://rawgit.com/ramanathanMuthuraman/clean-css/master/index.html?css=purifycss-cleaned-css), to view page linked with cleaned CSS from purify-css module
 
 ## License
 
