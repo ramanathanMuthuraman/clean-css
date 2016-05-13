@@ -268,7 +268,7 @@
     var file = window.location.href;
     
     var link = document.createElement( "link" );
-    link.href = file.substr(file.lastIndexOf( "=" )+1) + ".css";
+    link.href = "dist/"+file.substr(file.lastIndexOf( "=" )+1) + ".css";
     link.type = "text/css";
     link.rel = "stylesheet";
     link.media = "screen,print";
