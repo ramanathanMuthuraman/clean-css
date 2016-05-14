@@ -3,7 +3,7 @@ Analysis of node build tools to remove unused CSS, tools used are
 * [uncss] (https://github.com/giakki/uncss)
 * [purifycss] (https://github.com/purifycss/purifycss)
 
-These days, almost all projects include CSS frameworks which does speed up the development cycle, but the downside is we include what is not required. The tools specified above are used to cut down them. This reduces complexity the web page load time.
+These days, almost all projects include CSS frameworks which does speed up the development cycle, but the downside is we include what is not required. The tools specified above are used to cut down them. This reduces complexity the web page load time. We are going to implement these tools in a (bootstrap template) [http://blackrockdigital.github.io/startbootstrap-creative/] and analyse their results.
 
 ## Installation
 
@@ -41,7 +41,7 @@ Uncleaned CSS Size (KB) | PurifyCSS Cleaned CSS Size (KB) | Uncss Cleaned CSS Si
 ------------ | ------------- | --------------
 357 | 192 | 22
 
-**Purifycss might not provide a compact CSS file as uncss but does a better job by being more comprehensive**
+**Winner** : Purifycss - It might not provide a compact CSS file as uncss but does a better job by being more comprehensive
 
 ## License
 
