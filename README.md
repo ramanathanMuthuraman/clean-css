@@ -34,8 +34,8 @@ Click [here] (http://rawgit.com/ramanathanMuthuraman/clean-css/master/index.html
 
 So why two tools? To put in simple words
 
-* uncss : Discards classes from the stylesheet that are not used in **HTML** 
-* purifycss : Discards classes from the stylesheet that are not used in **HTML** and **JS** 
+* uncss : Discards rules from the stylesheet that are not used in **HTML** 
+* purifycss : Discards rules from the stylesheet that are not used in **HTML** and **JS** 
 
 Uncleaned CSS Size (KB) | PurifyCSS Cleaned CSS Size (KB) | Uncss Cleaned CSS Size (KB) 
 ------------ | ------------- | --------------
